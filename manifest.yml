@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: joeytisensortag
+  host: joeytisensortag
+  disk_quota: 1024M
+  services:
+  - joeytisensortag-cloudantNoSQLDB
+  - joeytisensortag-iotf-service
+  - availability-monitoring-auto
